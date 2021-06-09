@@ -33,8 +33,14 @@
 
 </head>
 
-<body>
+<body onload="remload()">
+  <div class="loader" id="load"></div>
   <script>
+    function remload() {
+
+      document.getElementById("load").style.display = "none"
+    }
+
     jQuery(document).ready(function () {
       $('.counterAnimate').counterUp({
         delay: 12,
