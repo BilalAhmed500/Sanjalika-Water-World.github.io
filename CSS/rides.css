@@ -18,3 +18,28 @@ ul {
 li {
     font-weight: bold;
 }
+
+.col-sm-4 {
+    display: none;
+
+}
+
+.but {
+    color: white;
+    background-color: rgb(38, 26, 104);
+    border: 2px solid white;
+    padding: 10px;
+    height: 5%;
+    width: 12%;
+    margin: auto;
+    margin-bottom: 1%;
+    transition: all 1s 0s;
+
+}
+
+.but:hover {
+
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 37, 148);
+}
